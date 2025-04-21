@@ -1,4 +1,3 @@
-# S-P-Stock-Data-
 """
 📘 Project Title: Exploratory Data Analysis of S&P 500 Companies and Historical Stock Performance
 
