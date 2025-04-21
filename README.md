@@ -17,9 +17,19 @@ This project performs a comprehensive Exploratory Data Analysis (EDA) on a merge
 - Statistical summaries including correlation, skewness, and kurtosis
 
 📤 Output:
-- Visualizations and charts explaining financial and stock data trends
-- Summary statistics and outlier detection
-- Exported cleaned datasets for downstream ML or dashboard use
+- Cleaned and transformed dataset (`merged_financials_cleaned.csv`, `.json`) with derived features like z-score, rolling average, and category labeling
+- A wide range of visualizations (line plots, bar charts, boxplots, KDE plots, regression plots)
+- Correlation matrices and summary statistics
+- Missing value diagnostics and resolved gaps in critical columns
+- Optional export of full profiling report (`eda_report.html`)
+
+🔍 Key Discoveries & Insights:
+- 📈 **Technology & Healthcare sectors** consistently outperformed in average stock price and EPS.
+- 📉 **Volatility analysis** via rolling standard deviation helped identify high-risk stocks (e.g., TSLA, AMZN).
+- 💡 **EPS positively correlates** with price, confirmed through correlation matrix and regression analysis.
+- 📦 **Sector boxplots** showed distinct EPS and price distributions, highlighting value sectors vs. growth sectors.
+- 🧪 **Z-score and normalization** were effective in detecting stock price outliers.
+- 🛠 **All missing or inconsistent values were handled**, resulting in a modeling-ready dataset.
 
 🛠 Technologies:
 - Python, Pandas, Matplotlib, Seaborn, Scipy, Pandas Profiling, Swifter
