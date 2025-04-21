@@ -21,7 +21,6 @@ This project performs a comprehensive Exploratory Data Analysis (EDA) on a merge
 - A wide range of visualizations (line plots, bar charts, boxplots, KDE plots, regression plots)
 - Correlation matrices and summary statistics
 - Missing value diagnostics and resolved gaps in critical columns
-- Optional export of full profiling report (`eda_report.html`)
 
 🔍 Key Discoveries & Insights:
 - 📈 **Technology & Healthcare sectors** consistently outperformed in average stock price and EPS.
